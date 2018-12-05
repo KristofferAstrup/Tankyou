@@ -12,7 +12,5 @@ namespace Assets.Libraries
         public ResourceLibrary<AudioClip> AudioLibrary { get; set; }
 
         public ResourceLibrary<AnimationClip> AnimationLibrary { get; set; }
-
-        public LevelLibrary LevelLibrary { get; set; }
     }
 }

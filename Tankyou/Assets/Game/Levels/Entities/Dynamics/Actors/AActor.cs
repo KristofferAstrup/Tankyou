@@ -2,10 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UnityEngine;
 
 namespace Assets.Game.Levels.Entities.Actors
 {
-    class AActor
+    public class AActor : AEntity
     {
+        public AActor(GameObject gameObject) : base(gameObject)
+        {
+        }
+
+        public override void Update(float delta)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
